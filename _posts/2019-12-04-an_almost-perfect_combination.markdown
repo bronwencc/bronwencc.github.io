@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "An Almost-Perfect Combination"
-date:       2019-12-05 04:07:51 +0000
+date:       2019-12-04 23:07:52 -0500
 permalink:  an_almost-perfect_combination
 ---
 
