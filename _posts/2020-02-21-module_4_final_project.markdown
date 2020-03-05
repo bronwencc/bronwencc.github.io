@@ -24,7 +24,7 @@ Practically, modeling and predicting for the twenty records with the lowest mean
 
 I then chose to compare the lower bounded values of the 95% confidence interval in April 2020 to the latest actual value from April 2018.  The five records with the highest percent changes by this comparison became the five recommendations.  Through the proxies for a safe bet, those were the least likely to lose the largest amounts of money.
 
-![2-Year Forecasts with Confidence Interval for 20 Selected Records](https://github.com/bronwencc/Module-4-Project/blob/master/20-RegionID-Forecasts.png?raw=true)
+![2-Year Forecasts with Confidence Interval for 20 Selected Records](https://raw.githubusercontent.com/bronwencc/Module-4-Project/master/files/20-RegionID-Forecasts.png)
 
 I would also add that I am reluctant to single out the cities and counties by name on the World Wide Web, especially when my analysis is not as accurate as I know it could be.
 
