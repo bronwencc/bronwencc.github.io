@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "`pandas.DataFrame` Quick-Start Guide (Python)"
-date:       2020-07-24 20:48:13 +0000
+title:      "pandas.DataFrame Quick-Start Guide (Python)"
+date:       2020-07-24 16:48:14 -0400
 permalink:  pandas_dataframe_quick-start_guide_python
 ---
 
