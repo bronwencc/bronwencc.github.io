@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Two Experiences with Feature Engineering Using pandas"
-date:       2020-07-27 19:40:01 +0000
+date:       2020-07-27 15:40:02 -0400
 permalink:  two_experiences_with_feature_engineering_using_pandas
 ---
 
