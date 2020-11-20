@@ -2,13 +2,14 @@
 author: Bronwen C.
 title: A Data Scientist's Studies
 header-img: img/home-bg.png
-email: bronwen.cohncort@gmail.com
-copyright_name: Bronwen C.
+email: 42773501+bronwencc@users.noreply.github.com
+copyright_name: Bronwen Cohn-Cort
 description: > # this means to ignore newlines until "baseurl:"
-  Some blog post topics from Flatiron School's Data Science course
-baseurl: "" # the subpath of your site, e.g. /blog
+  Blog post topics from Flatiron School's Data Science course
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  bronwencc
+linkedin_username: bcohncort
 
 # Build settings
 markdown: kramdown
