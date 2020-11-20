@@ -6,7 +6,7 @@ email:
 copyright_name: Bronwen Cohn-Cort
 description: > # this means to ignore newlines until "baseurl:"
   Blog post topics from Flatiron School's Data Science course
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  bronwencc
 linkedin_username: bcohncort
