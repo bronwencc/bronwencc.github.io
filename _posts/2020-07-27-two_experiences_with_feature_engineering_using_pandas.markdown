@@ -11,6 +11,7 @@ I have now completed four projects for this Data Science course and have learned
 I think of it as mainly thinking critically about the dataset and how text variables might become categorical variables, for example.  This post will review two features I engineered, each for a different project.
 
 ### Getting the winter season in Module 3
+(Project code repository slide deck available at [this link](https://github.com/bronwencc/dsc-2-final-project-online-ds-sp-000/blob/master/Module2-Final-Project.pdf).)
 The Northwind database is several SQL tables with sales information for the fictional Northwind company.  Once I knew I wanted to look at how shipping details were different for different orders, I could use the date of a shipment to determine what the weather was like for that order.  This evolved to become a season as a proxy for the weather and then ultimately, my alternate hypothesis was whether freight costs were different for wintry weather.  I could use the date to determine which meteorological season the shipment occurred in. However, orders are shipped to the Americas and Europe, so I needed to account for the fact that the Southern Hemisphere has its seasons opposite from the Northern Hemisphere.
 
 I first added the "Hemisphere" column for whether the ShipRegion was in the Southern or Northern Hemisphere.  One value that I needed to be sure of was "Central America" but I checked and a majority of that region is in the Northern Hemisphere.  This left "South America" as the only ShipRegion in the Southern Hemisphere.
@@ -39,6 +40,7 @@ notwinter=[x for x, y in zip(shipdf["Freight"], shipdf["Season"]) if y!=4]
 ![Plot of frequency of orders by season, 1 for spring, 4 for winter](https://raw.githubusercontent.com/bronwencc/bronwencc.github.io/master/img/seasons-orders.png)
 
 ### Combining rare dummy features for Module 5
+(Module 5 project repository available [here](https://github.com/bronwencc/Module-5-Project).)
 Another piece of code I enjoyed working on was for a dataset of details about strategy game apps (from [Kaggle](https://www.kaggle.com/tristan581/17k-apple-app-store-strategy-games/)), where some features were lists of subgenres or available language codes, for instance.  Although I did not ultimately make use of it in my final model, the resulting engineered feature was interesting to consider.
 
 After separating out the lists within those particular features to become dummy columns, I noticed that many dummy columns had few entries.  For example, Weather was a very unusual genre for a strategy game app.
