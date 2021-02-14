@@ -2,7 +2,7 @@ This is the Jekyll version of a theme called Clean Blog (details below) that beg
 There were several prompts, but I mainly wrote about a Data Science topic or a mini-tutorial.
 
 #### Changes to this template:
-* I have changed the background image for the About page, but the original for this theme is still in the "img" folder.
+* I have changed the background image for the About page, but the original [about-bg.png](https://github.com/bronwencc/bronwencc.github.io/blob/master/img/about-bg.png) for this theme is still in the "img" folder.
 * I added an icon and link to my LinkedIn page; previously it had links only to my Github and Learn.co (Flatiron website) profiles.
 
 #Clean Blog by Start Bootstrap - Jekyll Version
