@@ -5,7 +5,7 @@ date:       2021-02-28 17:25:34 -0500
 permalink:  a_higher_rated_strategy_game_app
 ---
 
-The project I completed for the Data Science bootcamp Module 5 involved finding a dataset I was unfamiliar with and analyze it. I browsed Kaggle and found a dataset of variables about strategy game apps from the Apple App Store. It can be found at this link: https://www.kaggle.com/tristan581/17k-apple-app-store-strategy-games/.
+The project I completed for the Data Science bootcamp Module 5 involved finding a dataset I was unfamiliar with and analyze it. I browsed Kaggle and found a dataset of variables about strategy game apps from the Apple App Store. It can be found at this link: [https://www.kaggle.com/tristan581/17k-apple-app-store-strategy-games/].
 
 I chose the target feature to be the average user rating and found an AdaBoost model to have 64% accuracy with 11 significant, high-importance features.
 
@@ -37,7 +37,7 @@ The other features that make up the rest of the eleven were, in order:
 * Whether the application supports the Japanese language
 * Whether the application has at least one in-app purchase that cost more than 1.99 USD but less than 19.49 USD
 
-I also engineered over 200 features using techniques similar to creating dummy variables (or one-hot encoding). I separated in-app purchase price points into bins, as well as converted the lists for the language and subgenre variables into their own dummy variables, one for each language and each subgenre. Since many records have multiple languages and subgenres, it wasn't a strict one-hot encoding. I wrote code to instead put a 1 in each new variable where the record did have that language, in-app purchase price, and/or subgenre. Otherwise, the variable for that record had a zero.
+I also engineered over 200 features using techniques similar to creating dummy variables (or one-hot encoding). I separated in-app purchase price points into bins, as well as converted the lists for the language and subgenre variables into their own dummy variables, one for each language and each subgenre. Since many records have multiple languages and subgenres, it wasn't a strict one-hot encoding. I wrote code to instead put a 1 in each new variable where the record did have that language, in-app purchase price, or subgenre. Otherwise, the variable for that record was set to be 0.
 
 I also engineered other features that were not important in the final model. Those included whether a Developer was a company and whether the app had a recent update.
 
@@ -53,4 +53,4 @@ I would want to look into advertising strategies and at the icons and images als
 
 App Stores in other countries can differ as well. For instance, I could believe strategy game applications with Japanese language support were higher-rated because those games that were highly-rated in the Japanese market could be most compelling to localize into English.
 
-Review and rating systems have also long been plagued by bots or paid reviewers. App stores and other online marketplaces try to identify and remove them, but it could be that higher-rated apps with a high number of ratings has a large number of fake 5-star ratings.
+Review and rating systems have also long been plagued by bots or paid reviewers. App stores and other online marketplaces try to identify and remove them, but it could be that higher-rated apps with a high number of ratings have a large number of false 5-star ratings.
