@@ -5,7 +5,7 @@ date:       2021-02-28 17:25:34 -0500
 permalink:  a_higher_rated_strategy_game_app
 ---
 
-The project I completed for the Data Science bootcamp Module 5 involved finding a dataset I was unfamiliar with and analyze it. I browsed Kaggle and found a dataset of variables about strategy game apps from the Apple App Store. It can be found at this link: [https://www.kaggle.com/tristan581/17k-apple-app-store-strategy-games/].
+The project I completed for the Data Science bootcamp Module 5 involved finding a dataset I was unfamiliar with and analyze it. I browsed Kaggle and found a dataset of variables about strategy game apps from the Apple App Store. It can be found at this link: [https://www.kaggle.com/tristan581/17k-apple-app-store-strategy-games/](https://www.kaggle.com/tristan581/17k-apple-app-store-strategy-games/).
 
 I chose the target feature to be the average user rating and found an AdaBoost model to have 64% accuracy with 11 significant, high-importance features.
 
