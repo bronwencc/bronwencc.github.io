@@ -2,6 +2,7 @@
 layout: post
 title:      "Two Experiences with Feature Engineering Using pandas"
 date:       2020-07-27 15:40:02 -0400
+updated:    2020-11-30 12:44:58 -0500
 permalink:  two_experiences_with_feature_engineering_using_pandas
 ---
 
