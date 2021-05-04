@@ -5,11 +5,12 @@ header-img: img/home-bg.png
 email: 
 copyright_name: Bronwen Cohn-Cort
 description: > # this means to ignore newlines until "baseurl:"
-  Blog post topics from Flatiron School's Data Science course
+  Blog posts on data science, machine learning and related topics.
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
-github_username:  bronwencc
+github_username: bronwencc
 linkedin_username: bcohncort
+facebook_username: 
 
 # Build settings
 markdown: kramdown
