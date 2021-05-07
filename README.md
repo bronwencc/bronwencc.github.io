@@ -1,37 +1,49 @@
 This is the Jekyll version of a theme called Clean Blog (details below) that began as the default for my blog for The Flatiron School/Learn.co, which required seven blog posts.
-It mainly covers Data Science topics, or provides a mini-tutorial.
+[The blog itself](https://bronwencc.github.io) focuses on Data Science topics and coding tutorials.
 
 #### Get the most recent version:
-You can fork the latest version from this [StartBootstrap repository](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll).
+You can fork the latest version from [this StartBootstrap repository](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll).
 
 #### Changes to this template:
-* I have changed the background image to one of my own creation for the About page, but the original for this theme, named [about-bg.png](https://github.com/bronwencc/bronwencc.github.io/blob/master/img/about-bg.png), can be found in the "img" folder.
-* I added an icon and link to my LinkedIn page; previously it had links only to my Github and Learn.co (Flatiron website) profiles, with options for Facebook and Twitter profile links.
+* I have changed the background image to one of my own creation for the About page.
 * Added statement to [post.html](https://github.com/bronwencc/bronwencc.github.io/blob/master/_layouts/post.html) so a post shows "(Edited: date format)" in "Posted by" text when there is a page `updated` variable.
 * I added a custom error page to show in case of a 404 error when navigating the blog, as [404.html](https://github.com/bronwencc/bronwencc.github.io/blob/master/404.html).
-* I [changed](https://github.com/bronwencc/bronwencc.github.io/commit/56f5d3c6bc0bb5f9712edef98d8f7494b216d403) the [page.html](https://github.com/bronwencc/bronwencc.github.io/blob/master/_layouts/page.html) layout to allow pages to use their own page `description`, if provided.
+* I [changed](https://github.com/bronwencc/bronwencc.github.io/commit/56f5d3c6bc0bb5f9712edef98d8f7494b216d403) the [page.html](https://github.com/bronwencc/bronwencc.github.io/blob/master/_layouts/page.html) layout to allow pages to use their own page `description`, if provided, and otherwise using the site `description`.
 
-# Clean Blog by Start Bootstrap - Jekyll Version
 
-The official Jekyll version of the Clean Blog theme by [Start Bootstrap](http://startbootstrap.com/).
+# [Start Bootstrap - Clean Blog Jekyll](https://startbootstrap.com/themes/clean-blog-jekyll/) - Official Jekyll Version
 
-### [View Live Demo &rarr;](http://blackrockdigital.github.io/startbootstrap-clean-blog-jekyll/)
+[Clean Blog Jekyll](https://startbootstrap.com/themes/clean-blog-jekyll/) is a stylish, responsive blog theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features a blog homepage, about page, contact page, and an example post page along with a working contact form powered by [Formspree](https://formspree.io/).
 
-## Before You Begin
+## Preview
 
-In the _config.yml file, the base URL is set to /startbootstrap-clean-blog-jekyll which is this themes gh-pages preview. It's recommended that you remove the base URL before working with this theme locally!
+[![Clean Blog (Jekyll) Preview](https://startbootstrap.com/assets/img/screenshots/themes/clean-blog-jekyll.png)](http://StartBootstrap.github.io/startbootstrap-clean-blog-jekyll/)
 
-It should look like this:
-`baseurl: ""`
+**[View Live Preview](http://StartBootstrap.github.io/startbootstrap-clean-blog-jekyll/)**
 
-## What's Included
+## Installation & Setup
 
-A full Jekyll environment is included with this theme. If you have Jekyll installed, simply run `jekyll serve` in your command line and preview the build in your browser. You can use `jekyll serve --watch` to watch for changes in the source files as well.
+Please visit the official StartBootstrap [repository](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll) for instructions on installing and setting up this theme.
 
-A Grunt environment is also included. There are a number of tasks it performs like minification of the JavaScript, compiling of the LESS files, adding banners to keep the Apache 2.0 license intact, and watching for changes. Run the grunt default task by entering `grunt` into your command line which will build the files. You can use `grunt watch` if you are working on the JavaScript or the LESS.
+## Bugs and Issues
 
-You can run `jekyll serve --watch` and `grunt watch` at the same time to watch for changes and then build them all at once.
+Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll/issues) here on GitHub!
 
-## Support
+## About
 
-Visit Clean Blog's template overview page on Start Bootstrap at http://startbootstrap.com/template-overviews/clean-blog/ and leave a comment, email feedback@startbootstrap.com, or open an issue here on GitHub for support.
+Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+
+* <https://startbootstrap.com>
+* <https://twitter.com/SBootstrap>
+
+Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**.
+
+* <http://davidmiller.io>
+* <https://twitter.com/davidmillerhere>
+* <https://github.com/davidtmiller>
+
+Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+
+## Copyright and License
+
+Copyright 2013-2021 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll/blob/master/LICENSE) license.
