@@ -1,9 +1,12 @@
-This is the Jekyll version of a theme called Clean Blog (details below) that began as the default for my blog for The Flatiron School, which required seven blog posts.
-There were several prompts, but I mainly wrote about a Data Science topic or a mini-tutorial.
+This is the Jekyll version of a theme called Clean Blog (details below) that began as the default for my blog for The Flatiron School/Learn.co, which required seven blog posts.
+It mainly covers Data Science topics, or provides a mini-tutorial.
+
+#### Get the most recent version:
+You can fork the latest version from this [StartBootstrap repository](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll).
 
 #### Changes to this template:
 * I have changed the background image to one of my own creation for the About page, but the original for this theme, named [about-bg.png](https://github.com/bronwencc/bronwencc.github.io/blob/master/img/about-bg.png), can be found in the "img" folder.
-* I added an icon and link to my LinkedIn page; previously it had links only to my Github and Learn.co (Flatiron website) profiles.
+* I added an icon and link to my LinkedIn page; previously it had links only to my Github and Learn.co (Flatiron website) profiles, with options for Facebook and Twitter profile links.
 
 #Clean Blog by Start Bootstrap - Jekyll Version
 
