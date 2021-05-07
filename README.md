@@ -7,12 +7,14 @@ You can fork the latest version from this [StartBootstrap repository](https://gi
 #### Changes to this template:
 * I have changed the background image to one of my own creation for the About page, but the original for this theme, named [about-bg.png](https://github.com/bronwencc/bronwencc.github.io/blob/master/img/about-bg.png), can be found in the "img" folder.
 * I added an icon and link to my LinkedIn page; previously it had links only to my Github and Learn.co (Flatiron website) profiles, with options for Facebook and Twitter profile links.
+* I added a custom error page to show in case of a 404 error when navigating the blog, as [404.html](https://github.com/bronwencc/bronwencc.github.io/blob/master/404.html).
+* I [changed](https://github.com/bronwencc/bronwencc.github.io/commit/56f5d3c6bc0bb5f9712edef98d8f7494b216d403) the [page.html](https://github.com/bronwencc/bronwencc.github.io/blob/master/_layouts/page.html) layout to allow pages to use their own page `description`, if provided.
 
-#Clean Blog by Start Bootstrap - Jekyll Version
+# Clean Blog by Start Bootstrap - Jekyll Version
 
 The official Jekyll version of the Clean Blog theme by [Start Bootstrap](http://startbootstrap.com/).
 
-###[View Live Demo &rarr;](http://blackrockdigital.github.io/startbootstrap-clean-blog-jekyll/)
+### [View Live Demo &rarr;](http://blackrockdigital.github.io/startbootstrap-clean-blog-jekyll/)
 
 ## Before You Begin
 
