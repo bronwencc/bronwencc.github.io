@@ -39,7 +39,7 @@ winter=[x for x, y in zip(shipdf["Freight"], shipdf["Season"]) if y==4]
 notwinter=[x for x, y in zip(shipdf["Freight"], shipdf["Season"]) if y!=4]
 ```
 
-![Plot of frequency of orders by season, 1 for spring, 4 for winter](https://raw.githubusercontent.com/bronwencc/bronwencc.github.io/master/img/seasons-orders.png)
+![Plot of frequency of orders by season, 1 for spring, 4 for winter](https://raw.githubusercontent.com/bronwencc/bronwencc.github.io/master/img/posts/seasons-orders.png)
 
 ### Combining rare dummy features for Module 5
 (Module 5 project repository available [here](https://github.com/bronwencc/Module-5-Project).)
