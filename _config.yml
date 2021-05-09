@@ -1,22 +1,26 @@
-# Site settings
-author: Bronwen C.
 title: A Data Scientist's Studies
-header-img: img/home-bg.png
 email: 
-copyright_name: Bronwen Cohn-Cort
-description: > # this means to ignore newlines until "baseurl:"
+description: > # this means to ignore newlines until "author:"
   Blog posts on data science, machine learning and related topics.
+author: Bronwen C.
 baseurl: "" # the subpath of your site, e.g. /blog
+# header-img: img/home-bg.png
+url: "https://bronwencc.github.io"
+
+copyright_name: Bronwen Cohn-Cort
+
+# Social Profiles
 twitter_username: 
 github_username: bronwencc
-linkedin_username: bcohncort
 facebook_username: 
+instagram_username: 
+linkedin_username: bcohncort
 
 # Build settings
 markdown: kramdown
-highlighter: rouge
-permalink: pretty
 paginate: 5
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-
-gems: [jekyll-paginate, jekyll-feed]
+paginate_path: "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
