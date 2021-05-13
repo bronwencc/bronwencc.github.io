@@ -1,6 +1,6 @@
 _site
 .sass-cache
-node_modules
 Gemfile.lock
 *.gem
 updating-github-blog.txt
+.jekyll-cache

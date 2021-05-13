@@ -1,15 +1,13 @@
 This is the Jekyll version of a theme called Clean Blog (details below) that began as the default for my blog for The Flatiron School/Learn.co, which required seven blog posts.
-[The blog itself](https://bronwencc.github.io) focuses on Data Science topics and coding tutorials.
+[The blog](https://bronwencc.github.io) itself focuses on Data Science topics and coding tutorials.
 
 #### Get the most recent version:
-You can fork the latest version from [this StartBootstrap repository](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll).
+You can have a look at the latest version from [this StartBootstrap repository](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll).
 
 #### Changes to this template:
 * I have changed the background image to one of my own creation for the About page.
 * Added statement to [post.html](https://github.com/bronwencc/bronwencc.github.io/blob/master/_layouts/post.html) so a post shows "(Edited: date format)" in "Posted by" text when there is a page `updated` variable.
-* I added a custom error page to show in case of a 404 error when navigating the blog, as [404.html](https://github.com/bronwencc/bronwencc.github.io/blob/master/404.html).
-* I [changed](https://github.com/bronwencc/bronwencc.github.io/commit/56f5d3c6bc0bb5f9712edef98d8f7494b216d403) the [page.html](https://github.com/bronwencc/bronwencc.github.io/blob/master/_layouts/page.html) layout to allow pages to use their own page `description`, if provided, and otherwise using the site `description`.
-
+* I added a custom error page to show in case of a 404 error when navigating the site, as [404.html](https://github.com/bronwencc/bronwencc.github.io/blob/master/404.html).
 
 # [Start Bootstrap - Clean Blog Jekyll](https://startbootstrap.com/themes/clean-blog-jekyll/) - Official Jekyll Version
 
