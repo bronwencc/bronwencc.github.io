@@ -6,7 +6,7 @@ permalink:  module_4_final_project
 ---
 
 
-The fourth module of the course introduced time series.  The final project for it asked me to make use of time series analysis techniques to identify which zip codes from a given dataset of house prices would be the best five to invest in.
+The fourth module of the course introduced time series.  The [final project for it](https://github.com/bronwencc/Module-4-Project/) asked me to make use of time series analysis techniques to identify which zip codes from a given dataset of house prices would be the best five to invest in.
 
 I determined that a top zip code would be one where the housing market collapse in 2007-2008 did not affect the prices very much.  It would also be located near zip codes that had seen a price increase in the past few years because that may indicate the county itself is doing better financially and would be more desirable area in which to live.  Thus, these factors would indicate that a house price would be more likely to increase in the next few years.
 
@@ -24,7 +24,7 @@ Practically, modeling and predicting for the twenty records with the lowest mean
 
 I then chose to compare the lower bounded values of the 95% confidence interval in April 2020 to the latest actual value from April 2018.  The five records with the highest percent changes by this comparison became the five recommendations.  Through the proxies for a safe bet, those were the least likely to lose the largest amounts of money.
 
-![2-Year Forecasts with Confidence Interval for 20 Selected Records](https://raw.githubusercontent.com/bronwencc/Module-4-Project/master/files/20-RegionID-Forecasts.png)
+![2-Year Forecasts with Confidence Interval for 20 Selected Records](https://raw.githubusercontent.com/bronwencc/Module-4-Project/main/figures/20-RegionID-Forecasts.png)
 
 I would also add that I am reluctant to single out the cities and counties by name on the World Wide Web, especially when my analysis is not as accurate as I know it could be.
 
