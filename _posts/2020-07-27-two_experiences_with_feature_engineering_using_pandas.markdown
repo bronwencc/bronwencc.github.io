@@ -12,7 +12,7 @@ After completing four projects for the Flatiron Data Science course, I discovere
 Feature engineering involves thinking critically about a dataset with the purpose of re-imagining variables to get a desired quality or form.  For example, one might consider how text variables might become categorical or numerical variables. It could be based on counting the number of characters or separating a list that was stored in one variable into multiple dummy columns. This blog post will review two features I engineered, each for a different project.
 
 ### Getting the winter season in Module 3
-(Project slide deck available at [this link](https://github.com/bronwencc/dsc-2-final-project-online-ds-sp-000/blob/master/Module2-Final-Project.pdf).)
+(Project slide deck available at [this link](https://github.com/bronwencc/dsc-2-final-project-online-ds-sp-000/blob/main/Module2-Final-Project.pdf).)
 
 The project prompt was to formulate and test four hypotheses on the Northwind SQL database. It contains several tables with sales information for the fictional Northwind company. Once I knew I wanted to compare shipping details for different orders, I could use the date of a shipment to determine what the weather was like for that order. It would be simplest to implement by using season as a proxy for the weather and then my alternate hypothesis was whether freight costs were different for wintry weather (defined as orders that occurred during meteorological winter). I used the date to determine which meteorological season the shipment occurred in. However, since orders were shipped to the Americas and Europe, I also needed to account for the fact that the Southern and Northern Hemisphere have their seasons opposite from each other.
 
@@ -39,7 +39,7 @@ winter=[x for x, y in zip(shipdf["Freight"], shipdf["Season"]) if y==4]
 notwinter=[x for x, y in zip(shipdf["Freight"], shipdf["Season"]) if y!=4]
 ```
 
-![Plot of frequency of orders by season, 1 for spring, 4 for winter](https://raw.githubusercontent.com/bronwencc/bronwencc.github.io/master/img/posts/seasons-orders.png)
+![Plot of frequency of orders by season, 1 for spring, 4 for winter](https://raw.githubusercontent.com/bronwencc/bronwencc.github.io/main/img/posts/seasons-orders.png)
 
 ### Combining rare dummy features for Module 5
 (Module 5 project repository available [here](https://github.com/bronwencc/Module-5-Project).)

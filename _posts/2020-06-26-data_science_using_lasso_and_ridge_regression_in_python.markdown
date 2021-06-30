@@ -14,11 +14,11 @@ LASSO and Ridge regressions provide useful results for standardized data.  Since
 
 The cost function (also known as a loss function) for solving for a linear regression is:
 
-![the sum from i=1 to n for (y_i minus (m times x_i plus b)) squared](https://raw.githubusercontent.com/bronwencc/bronwencc.github.io/master/img/posts/cost-function.png)
+![the sum from i=1 to n for (y_i minus (m times x_i plus b)) squared](https://raw.githubusercontent.com/bronwencc/bronwencc.github.io/main/img/posts/cost-function.png)
 
 A LASSO regression cost function looks like:
 
-![the cost function with the addition of lambda times the sum from j = 1 to p for the absolute value of m_j](https://raw.githubusercontent.com/bronwencc/bronwencc.github.io/master/img/posts/lasso-cost-function.png)
+![the cost function with the addition of lambda times the sum from j = 1 to p for the absolute value of m_j](https://raw.githubusercontent.com/bronwencc/bronwencc.github.io/main/img/posts/lasso-cost-function.png)
 
 LASSO regression is based on ordinary least squares regression.  Its regularization hyperparameter λ (a.k.a. penalty term) needs to be set before estimating the parameters through the training algorithm.  The absolute value of each coefficient in the cost function is multiplied by the penalty term. LASSO allows for coefficients to shrink to exactly zero, which reduces the amount of calculations because the regression eliminates the feature associated with those coefficients.
 
@@ -33,7 +33,7 @@ Scikit-learn has several other kinds of LASSO models, available to peruse [here]
 
 A Ridge regression cost function may be represented by:
 
-![the cost function with the addition of lambda times the sum from j = 1 to p for m_j squared](https://raw.githubusercontent.com/bronwencc/bronwencc.github.io/master/img/posts/ridge-cost-function.png)
+![the cost function with the addition of lambda times the sum from j = 1 to p for m_j squared](https://raw.githubusercontent.com/bronwencc/bronwencc.github.io/main/img/posts/ridge-cost-function.png)
 
 For Ridge regression, each coefficient in the cost function is squared and then multiplied by a penalty term λ.  For small λ’s, the ridge regression will be close to a linear regression model.  For a larger λ, the larger coefficients penalize the cost function and have a greater effect on the optimization, because more of the coefficients are smaller and shrink their respective features.
 

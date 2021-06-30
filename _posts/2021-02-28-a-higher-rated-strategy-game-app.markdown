@@ -13,7 +13,7 @@ One of my conclusions was that a lower-rated app could improve its rating by ren
 
 Another finding was that a higher number of user ratings means that the app has a higher average user rating. There are higher-rated apps with a small number of ratings, but the chart below shows lower-rated apps have only smaller numbers of ratings.
 
-![Plot of log number of user ratings vs average user rating](https://raw.githubusercontent.com/bronwencc/Module-5-Project/master/images/Distribution%20of%20Rating%20Count.png)
+![Plot of log number of user ratings vs average user rating](https://raw.githubusercontent.com/bronwencc/Module-5-Project/main/images/Distribution%20of%20Rating%20Count.png)
 
 I made a scatter plot using the log of the number of user ratings because otherwise it was harder to compare the distribution on the low end and high end.
 
