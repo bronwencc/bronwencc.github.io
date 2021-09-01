@@ -19,7 +19,7 @@ linkedin_username: bcohncort
 # Build settings
 markdown: kramdown
 paginate: 5
-paginate_path: "/posts/page:num/"
+paginate_path: "/page:num/"
 plugins:
   - jekyll-feed
   - jekyll-paginate
